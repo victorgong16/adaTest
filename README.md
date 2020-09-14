@@ -2,7 +2,8 @@
 
 Welcome to the Ada Tech Hiring test! This test is designed to let you **prove** that you can program, whether you have relevant credentials or not.
 
-This test is inspired by problems we have run into in our work and we expect you to tackle it like any other work problem. You may use any of the offered programming languages as well as your favourite editor. Feel free to google-and-stackoverflow your way to success.
+This test is inspired by problems we have run into in our work and we expect you to tackle it like any other work problem. 
+You may use any of the offered programming languages as well as your favourite editor. Feel free to google-and-stackoverflow your way to success.
 
 As for the programming challenges, we suggest you stick to the old programming mantra:
 
@@ -10,10 +11,14 @@ As for the programming challenges, we suggest you stick to the old programming m
 - Make it right
 - Make it fast
 
-The most important thing is to make it work somehow. If you then can clean it up and make it _right_, all the better. That said, we would like you to give some thought on how you would run your code in production and express the underlying assumptions of your solution. Do you expect a dataset to fit into memory? Why? Would you change your approach if you had 100 instances running at the same time, as opposed to on one beefy server? Do you optimize for latency or simplicity in your solution? Please spare a few words to these assumptions and write them out; either directly as code comments or in a separate document.
+The most important thing is to make it work somehow. If you then can clean it up and make it _right_, all the better. 
+That said, we would like you to give some thought on how you would run your code in production and express the underlying assumptions of your solution. 
+Do you expect a dataset to fit into memory? Why? Would you change your approach if you had 100 instances running at the same time, as opposed to on one beefy server? 
+Do you optimize for latency or simplicity in your solution? Please spare a few words to these assumptions and write them out; either directly as code comments or in a separate document.
 
 
-As for the code, don't feel bound by what is already there. Add functions and datastructures as you see fit, and delete old code with abandon if you don't find it helpful (as long as the unit tests pass). This is your code, so write it your way!
+As for the code, don't feel bound by what is already there. Add functions and datastructures as you see fit, and delete old code with abandon if you don't find it helpful (as long as the unit tests pass). 
+This is your code, so write it your way!
 
 # The Setup
 
@@ -57,7 +62,9 @@ will result in
  }]
 ```
 
-Due to changing business requirements and demanding clients, you will now have to modify the endpoint to not only return the _full_ answer (including its blocks), but also allow search within the content block fields! Don't forget to _also_ search the title, and while you're at it, please make sure that the endpoint `400`s on invalid input, as is best practice. Lastly, we now also want to support searching for multiple terms that **all** have to show up **somewhere** in the answer.
+Due to changing business requirements and demanding clients, you will now have to modify the endpoint to not only return the _full_ answer (including its blocks), but also allow search within the content block fields! 
+Don't forget to _also_ search the title, and while you're at it, please make sure that the endpoint `400`s on invalid input, as is best practice. 
+Lastly, we now also want to support searching for multiple terms that **all** have to show up **somewhere** in the answer.
 
 You can test your solution through `tests/test_search.py`. Have a look at it too, as it will probably answer a lot of the questions you may be having.
 
